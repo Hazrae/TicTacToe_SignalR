@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">ZI IS ZE MOTHERFUCKING TIC TAC TOE</h1>
+        <br />
+        <br />
+        <div id="cptTour"></div>
+        <br />
+        <div align ="center">
+            <table class="table-bordered">
+                <tr>
+                    <td width="75px" height="75px" id="c1"></td>
+                    <td width="75px" height="75px" id="c2"></td>
+                    <td width="75px" height="75px" id="c3"></td>
+                </tr>
+                <tr>
+                    <td width="75px" height="75px" id="c4"></td>
+                    <td width="75px" height="75px" id="c5"></td>
+                    <td width="75px" height="75px" id="c6"></td>
+                </tr>
+                <tr>
+                    <td width="75px" height="75px" id="c7"></td>
+                    <td width="75px" height="75px" id="c8"></td>
+                    <td width="75px" height="75px" id="c9"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/tictactoe.js"></script>
