@@ -1,35 +1,44 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Tic Tac Toe";
 }
-
+<body style="background-image:url('https://www.desktopbackground.org/p/2011/04/12/186719_chuck-norris-desktop-computer-wallpaper-backgrounds-image_1280x900_h.png'); background-size:cover">
     <div class="text-center">
-        <h1 class="display-4">ZI IS ZE MOTHERFUCKING TIC TAC TOE</h1>
         <br />
         <br />
-        <div id="cptTour"></div>
         <br />
-        <div align ="center">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div align="center">
             <table class="table-bordered">
                 <tr>
-                    <td width="75px" height="75px" id="c1"></td>
-                    <td width="75px" height="75px" id="c2"></td>
-                    <td width="75px" height="75px" id="c3"></td>
+                    <td width="75px" height="75px" id="c1" align="center"></td>
+                    <td width="75px" height="75px" id="c2" align="center"></td>
+                    <td width="75px" height="75px" id="c3" align="center"></td>
                 </tr>
                 <tr>
-                    <td width="75px" height="75px" id="c4"></td>
-                    <td width="75px" height="75px" id="c5"></td>
-                    <td width="75px" height="75px" id="c6"></td>
+                    <td width="75px" height="75px" id="c4" align="center"></td>
+                    <td width="75px" height="75px" id="c5" align="center"></td>
+                    <td width="75px" height="75px" id="c6" align="center"></td>
                 </tr>
                 <tr>
-                    <td width="75px" height="75px" id="c7"></td>
-                    <td width="75px" height="75px" id="c8"></td>
-                    <td width="75px" height="75px" id="c9"></td>
+                    <td width="75px" height="75px" id="c7" align="center"></td>
+                    <td width="75px" height="75px" id="c8" align="center"></td>
+                    <td width="75px" height="75px" id="c9" align="center"></td>
                 </tr>
             </table>
+            <br />
+            <div id="cptTour" style="font-size:30px; font-weight:Bold;color:white"></div>
+            <br />
         </div>
     </div>
+</body>>
 
-    <script src="~/js/signalr/dist/browser/signalr.js"></script>
-    <script src="~/js/tictactoe.js"></script>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/tictactoe.js"></script>
