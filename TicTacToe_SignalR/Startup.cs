@@ -52,7 +52,7 @@ namespace TicTacToe_SignalR
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapHub<TicTacToeHub>("/tictactoeHub");
+                endpoints.MapHub<TicTacToeHub>("/TicTacToeHub");
             });
         }
     }

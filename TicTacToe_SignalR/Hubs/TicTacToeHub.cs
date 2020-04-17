@@ -8,9 +8,9 @@ namespace TicTacToe_SignalR.Hubs
 {
     public class TicTacToeHub : Hub
     {
-        public async Task SendMessage(string id, int cpt)
+        public async Task SendAction(string id, int cpt)
         {
-            await Clients.All.SendAsync("ReceiveMessage", id, cpt);
+            await Clients.All.SendAsync("PlaceToken", id, cpt);
         }
     }
 }
