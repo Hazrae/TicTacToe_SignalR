@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe_SignalR", "TicTacToe_SignalR\TicTacToe_SignalR.csproj", "{3344A786-B2B4-40FD-BA88-CD6E36D2CA35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\ASPCoreToDo\ToDo_API\API.csproj", "{1E0F710F-E127-493C-8280-574F32CC96C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{1E0F710F-E127-493C-8280-574F32CC96C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\ASPCoreToDo\ToDo_DAL\DAL.csproj", "{9C80972F-964C-4A2E-9A22-DC5A090FD914}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{9C80972F-964C-4A2E-9A22-DC5A090FD914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
